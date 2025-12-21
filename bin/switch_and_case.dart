@@ -20,4 +20,18 @@ void main() {
     default:
       print("Invalid month");
   }
+
+  //switch expression
+
+  String grade = "";
+
+  String result = switch (grade) {
+    "A" => "Excellent",
+    "B" => "Good",
+    "C" => "Average",
+    _ => "Fail",
+  };
+
+  print(result);
+
 }
