@@ -9,10 +9,12 @@ class Person {
 
 //Class with constructor
 class Employee {
-  String designation;
-  String role;
+  String? designation;
+  String? role;
 
   Employee(this.designation, this.role);
+  //Employee(String this.designation, String this.role);
+
 
   void printEmpInfo() {
     print("Designation $designation, role: $role");
@@ -27,6 +29,6 @@ void main() {
 
   person.introduce();
 
-  Employee employee = Employee("Software Engineer", "MID");
+  Employee employee = Employee("Software Engineer", null);
   employee.printEmpInfo();
 }
