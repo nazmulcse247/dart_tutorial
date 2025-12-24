@@ -22,7 +22,7 @@ Dart fundamentals step by step.
   <li>Ternary operator</li>
 </ul>
 
-<h3>3. Loop Control Statements ✅ (Currently Covered)</h3>
+<h3>3. Loop Control Statements</h3>
 <ul>
   <li>What are iterators?</li>
   <li>for loop and how it works</li>
