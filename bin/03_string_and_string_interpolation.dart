@@ -7,8 +7,9 @@ void main() {
   int b = 10;
   print("Sum is ${a + b}");
 
-  //Conditional (Ternary) Interpolatio
-  bool isLoggedIn = false;
+  //Conditional (Ternary) Interpolation
+  late bool isLoggedIn;
+  isLoggedIn = true;
   print("User ${isLoggedIn ? "Login successfully" : "Failed to Login"}");
 
   //Multi-line String Interpolation

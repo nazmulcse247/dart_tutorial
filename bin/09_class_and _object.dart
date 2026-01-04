@@ -48,7 +48,7 @@ class Users {
 
 
 void main() {
-  Person person = Person();
+  Person person = Person(); // class without constructor
   person.name = "Nazmul";
   person.age = 30;
 
