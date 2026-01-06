@@ -22,6 +22,20 @@ class Employee {
   }
 }
 
+//Named constructor
+
+class User1 {
+  String name;
+  int age;
+
+  User1({required this.name, this.age = 18});
+
+  void printInfo() {
+    print("Name:$name age: $age");
+
+  }
+}
+
 //Optional Parameters in Constructor
 class User {
   String name;
@@ -59,5 +73,7 @@ void main() {
 
   var users = Users.fromJson({"name": "Rahim", "age": 25});
   print("${users.name}, ${users.age}");
+
+  var user1 = User1(name: "Osman",age: 25);
 
 }
