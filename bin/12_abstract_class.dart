@@ -23,7 +23,7 @@ abstract class Employee {
 class Manager extends Employee {
   int bonus;
 
-  Manager(String name, int baseSalary, this.bonus) : super(name, baseSalary);
+  Manager(super.name, super.baseSalary, this.bonus);
 
   @override
   int calculateSalary() {
@@ -37,11 +37,11 @@ class Developer extends Employee {
   int overtimeRate;
 
   Developer(
-      String name,
-      int baseSalary,
+      super.name,
+      super.baseSalary,
       this.overtimeHours,
       this.overtimeRate,
-      ) : super(name, baseSalary);
+      );
 
   @override
   int calculateSalary() {
